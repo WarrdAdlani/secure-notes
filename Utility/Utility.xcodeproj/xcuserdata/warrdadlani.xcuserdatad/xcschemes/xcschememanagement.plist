@@ -4,25 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>secure-notes.xcscheme_^#shared#^_</key>
+		<key>Utility.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F3974AD52C18E14F0062D8E3</key>
+		<key>F3974B112C18E4890062D8E3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F3974AEA2C18E1510062D8E3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F3974AF42C18E1510062D8E3</key>
+		<key>F3974B1B2C18E4890062D8E3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
