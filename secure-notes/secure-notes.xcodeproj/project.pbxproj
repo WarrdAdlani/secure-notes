@@ -24,6 +24,10 @@
 		F3974BA42C18E6030062D8E3 /* Presentation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F3974B9D2C18E6030062D8E3 /* Presentation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F3974BA52C18E6030062D8E3 /* Utility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3974B9E2C18E6030062D8E3 /* Utility.framework */; };
 		F3974BA62C18E6030062D8E3 /* Utility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F3974B9E2C18E6030062D8E3 /* Utility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F3974BAB2C18EAF60062D8E3 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3974BAA2C18EAF60062D8E3 /* NotesView.swift */; };
+		F3974BAE2C18EB060062D8E3 /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3974BAD2C18EB060062D8E3 /* NotesViewModel.swift */; };
+		F3974BB22C18ECC20062D8E3 /* NotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3974BB12C18ECC20062D8E3 /* NotesListView.swift */; };
+		F3974BB52C18ECD50062D8E3 /* NotesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3974BB42C18ECD50062D8E3 /* NotesListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +81,10 @@
 		F3974B9C2C18E6030062D8E3 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3974B9D2C18E6030062D8E3 /* Presentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Presentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3974B9E2C18E6030062D8E3 /* Utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3974BAA2C18EAF60062D8E3 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		F3974BAD2C18EB060062D8E3 /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		F3974BB12C18ECC20062D8E3 /* NotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListView.swift; sourceTree = "<group>"; };
+		F3974BB42C18ECD50062D8E3 /* NotesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +142,8 @@
 			children = (
 				F3974AD92C18E14F0062D8E3 /* secure_notesApp.swift */,
 				F3974ADB2C18E14F0062D8E3 /* ContentView.swift */,
+				F3974BB32C18ECCA0062D8E3 /* NotesListView */,
+				F3974BAC2C18EAFE0062D8E3 /* NotesView */,
 				F3974ADD2C18E1500062D8E3 /* Assets.xcassets */,
 				F3974AE22C18E1500062D8E3 /* Persistence.swift */,
 				F3974AE42C18E1500062D8E3 /* secure_notes.xcdatamodeld */,
@@ -176,6 +186,24 @@
 				F3974B9E2C18E6030062D8E3 /* Utility.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3974BAC2C18EAFE0062D8E3 /* NotesView */ = {
+			isa = PBXGroup;
+			children = (
+				F3974BAD2C18EB060062D8E3 /* NotesViewModel.swift */,
+				F3974BAA2C18EAF60062D8E3 /* NotesView.swift */,
+			);
+			path = NotesView;
+			sourceTree = "<group>";
+		};
+		F3974BB32C18ECCA0062D8E3 /* NotesListView */ = {
+			isa = PBXGroup;
+			children = (
+				F3974BB42C18ECD50062D8E3 /* NotesListViewModel.swift */,
+				F3974BB12C18ECC20062D8E3 /* NotesListView.swift */,
+			);
+			path = NotesListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,8 +339,12 @@
 			files = (
 				F3974AE62C18E1500062D8E3 /* secure_notes.xcdatamodeld in Sources */,
 				F3974AE32C18E1500062D8E3 /* Persistence.swift in Sources */,
+				F3974BAE2C18EB060062D8E3 /* NotesViewModel.swift in Sources */,
+				F3974BAB2C18EAF60062D8E3 /* NotesView.swift in Sources */,
+				F3974BB52C18ECD50062D8E3 /* NotesListViewModel.swift in Sources */,
 				F3974ADC2C18E14F0062D8E3 /* ContentView.swift in Sources */,
 				F3974ADA2C18E14F0062D8E3 /* secure_notesApp.swift in Sources */,
+				F3974BB22C18ECC20062D8E3 /* NotesListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
